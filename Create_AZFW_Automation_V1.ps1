@@ -1,6 +1,9 @@
-﻿## Auth using the desired Azure Automation account
+﻿## Auth using the desired Azure Automation account or service principal
 ## First create an automation account (Run As Account), import Modules Az.Accounts, Az.Compute, Az.Network, Az.Profile, Az.Resources, run this
-##script as a powershell runbook.
+## Can change the ENV:TEMP$ to a storage account.
+## This script is under contruction use it carefully. Any contribution are welcome. @Rafael Egito
+
+
 $cred = "AzureRunAsConnection"
 try {
     # Get the connection "AzureRunAsConnection"
